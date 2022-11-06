@@ -30,7 +30,6 @@ function Counter() {
   return (
     <div className="counter">
       <div className="logo nav">
-        <img alt="AltSchool-Logo" src={AltSchoolLogo} />
         <Link to="/">
           <p>Return to Homepage</p>
         </Link>
