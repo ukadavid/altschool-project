@@ -4,4 +4,4 @@
 
 Created with love by Uka David Tobechukwu
 
-Project Link:
+<a href"https://altschoolcounterproject.netlify.app">Project Link</a>
