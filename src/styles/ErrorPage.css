@@ -20,11 +20,11 @@
 
 .error__card h3,
 .error__boundary h3 {
-  color: var(--primary100);
+  color: var(--primary);
   font-size: 15px;
 }
 
 .error__boundary p {
-  color: var(--primary100);
+  color: var(--primary);
   font-size: 13px;
 }
