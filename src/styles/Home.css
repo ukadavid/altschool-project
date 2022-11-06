@@ -1,0 +1,50 @@
+/* Home Page Styling */
+.home {
+  height: 100vh;
+}
+
+.logo {
+  padding: 12px 16px;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 425px;
+}
+
+.homepage h1 {
+  color: var(--primary100);
+  font-size: 50px;
+}
+
+.homepage p, li {
+  color: var(--white);
+  font-size: 14px;
+}
+
+@media (min-width: 992px) {
+  .logo {
+    padding: 24px 48px;
+  }
+
+  .homepage h1 {
+    font-size: 80px;
+  }
+
+  .homepage p {
+    font-size: 16px;
+  }
+
+  .homepage button {
+    padding: 12px 16px;
+  }
+}
