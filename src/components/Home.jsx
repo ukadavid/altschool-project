@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
 import { Link } from "react-router-dom";
-import AltSchoolLogo from "../images/AltSchoolLogo.png";
 import { SEO } from "../exports/Exports";
 
 const Home = () => {
@@ -13,9 +12,6 @@ const Home = () => {
         name={"Tobechukwu Uka"}
       />
       <div className="home">
-        <div className="logo">
-          <img alt="AltSchool Logo" src={AltSchoolLogo} />
-        </div>
         <div className="center">
           <div className="homepage">
             <h1>Counter Exam Description</h1>
