@@ -2,7 +2,6 @@ import "../styles/Counter.css";
 import { Link } from "react-router-dom";
 import React, { useReducer } from "react";
 import CounterHook from "../hooks/CounterHook";
-import AltSchoolLogo from "../images/AltSchoolLogo.png";
 
 function Counter() {
   function handleIncrement() {
